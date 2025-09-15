@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Displays all listening TCP and UDP ports with PID and program name
 
-sudo netstat -tunlp | grep LISTEN || true
+sudo netstat -tunlp
